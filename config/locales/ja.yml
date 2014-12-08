@@ -1,0 +1,10 @@
+ja:
+  time:
+    formats:
+      absolute: "%Y/%m/%d %H:%M:%S"
+  label_added_time_by: "%{author} が %{age} に追加"
+  label_updated_time: "%{value} に更新"
+  label_updated_time_by: "%{author} が %{age} に更新"
+  label_api_access_key_created_on: "APIアクセスキーは%{value}に作成されました"
+  label_feeds_access_key_created_on: "RSSアクセスキーは%{value}に作成されました"
+
