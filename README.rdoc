@@ -3,3 +3,10 @@
 Redmine plug-in to change the time format to a simple time.
 
 This also changes the time format of Redmine Wiki Extensions comment macro.
+
+== how to install
+
+    cd redmine_root/plugins
+    git clone https://github.com/holysugar/redmine_wiki_extensions_absolute_dates.git
+
+and restart server
