@@ -1,3 +1,10 @@
-# English strings go here for Rails i18n
-en:
-  # my_label: "My label"
+ja:
+  time:
+    formats:
+      absolute: "%d %b %H:%M"
+  label_added_time_by: "Added by %{author} at %{age}"
+  label_updated_time: "Updated at %{value}"
+  label_updated_time_by: "Updated by %{author} at %{age}"
+  label_api_access_key_created_on: "API access key created at %{value}"
+  label_feeds_access_key_created_on: "RSS access key created at %{value}"
+
