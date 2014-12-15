@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_wiki_extensions_absolute_dates do
   name 'Redmine Wiki Extensions Absolute Dates plugin'
   author 'holysugar'
   description 'Change Redmine Wiki Extensions comment date to absolute date'
-  version '0.0.4'
+  version '0.0.6'
   url 'https://github.com/holysugar/redmine_wiki_extensions_absolute_dates'
   author_url 'https://github.com/holysugar'
 end
