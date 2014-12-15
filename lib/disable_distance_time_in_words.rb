@@ -6,7 +6,7 @@ module ActionView
         to_time = to_time.to_time if to_time.respond_to?(:to_time)
         from_time, to_time = to_time, from_time if from_time > to_time
 
-        I18n.l(from_time.localtime, :format => :absolute)
+        I18n.l(from_time.localtime, :format => :absolute, :default => I18n.l(from_time.localtime, :format => :short))
       end
     end
   end
